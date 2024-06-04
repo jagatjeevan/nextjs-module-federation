@@ -1,0 +1,22 @@
+{
+  "name": "hogwarts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "rm -rf .next &&  NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 1001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@module-federation/nextjs-mf": "^8.3.19",
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "webpack": "^5.91.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3"
+  }
+}

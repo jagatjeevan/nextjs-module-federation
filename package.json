@@ -1,0 +1,19 @@
+{
+  "name": "nextjs-module-federation",
+  "version": "1.0.0",
+  "description": "Build time micro frontend with NextJs.",
+  "keywords": ["micro-frontend", "NextJs"],
+  "author": {
+    "name": "Jagat Jeevan Sahoo",
+    "url": "https://jagatjeevan.vercel.app/"
+  },
+  "scripts": {
+    "start": "npm --prefix hogwarts run dev"
+  },
+  "workspaces": [
+    "ron",
+    "harry",
+    "hogwarts"
+  ],
+  "license": "ISC"
+}
